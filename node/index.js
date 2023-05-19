@@ -29,7 +29,7 @@ connection.query(sqlQuery, (err, result) => {
 connection.end()
 
 app.get('/', (req, res) => {
-    const response = `<h1>Full Cycle</h1>\n${markup}`
+    const response = `<h1>Full Cycle Rocks!</h1>\n${markup}`
     res.send(response)
 })
 
